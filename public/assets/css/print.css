@@ -1,0 +1,23 @@
+@media print {
+
+    @page {
+        size: auto;
+        margin: 0;
+    }
+
+    #ModalFooter {
+        display: none !important;
+    }
+
+    #NotForPrint {
+        display: none;
+    }
+    
+
+    .qrcode img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+
+}
